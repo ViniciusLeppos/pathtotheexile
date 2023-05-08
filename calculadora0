@@ -1,0 +1,18 @@
+
+a = input('a:')
+b = input('b:')
+c = input('c:')
+
+a = int(a)
+b = int(b)
+c = int(c)
+
+delta = int(b*b - 4*a*c)
+
+deltaraiz = float(delta ** 0.5)
+
+
+x1 = int(-b + deltaraiz/2 * a)
+x2 = int((-b - deltaraiz)/(2 * a))
+print('x1:', x1)
+print('x2:', x2)
